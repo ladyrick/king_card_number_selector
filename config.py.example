@@ -1,0 +1,11 @@
+# smtp server
+mail_host = "smtp.qq.com"
+
+# your email
+mail_user = "ladyrick@qq.com"
+
+# email password
+mail_pass = "aaaaaa"
+
+search_values = ["0101", "0521"]
+detailed_values = ["20000101", "20120521"]
