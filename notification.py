@@ -5,14 +5,14 @@ from email.header import Header
 from config import mail_user, mail_pass, mail_host
 
 
-def smtp_send(msg):
+def smtp_send(subject, msg):
     sender = mail_user
     receivers = [mail_user]  # send to yourself
 
     message = MIMEText(str(msg), "plain", "utf-8")
     message["From"] = mail_user
     message["To"] = mail_user
-    message["Subject"] = "automatic email notification"
+    message["Subject"] = subject
 
     try:
         with smtplib.SMTP_SSL(mail_host, 465) as smtpObj:
