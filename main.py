@@ -8,7 +8,7 @@ from config import search_values, detailed_values
 
 def number_iter(search_values, stop_iter=0):
     iter = 0
-    registerURL = "https://m.10010.com/queen/tencent/fill.html?product=0&channel=1023"
+    registerURL = "https://m.10010.com/queen/tencent/fill.html?product=0&channel=67"
     requestURL = "https://m.10010.com/NumApp/NumberCenter/qryNum"
     headers = {
         "Accept": "text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01",
